@@ -19,7 +19,10 @@ document.getElementById("rightClickBTN").oncontextmenu = rightclick
 // what is ur email?
 // type it 
 // salem.agbaje98@gmail.com
+// Public will makeit visible for all 
 
+// init, add, commit, push, pull, branch, clone, status
+// it means it has not been added or commited 
 // If u want to combine variable and text together, backticks is very good and easy 
 // I will still explain the use of "this" keyword
 
@@ -34,3 +37,7 @@ document.getElementById("rightClickBTN").oncontextmenu = rightclick
 
 // you hosted git globally b4 
 // it supposed to be individually 
+// event.js is not added to the tree yet
+// the . means all the files that are not added yet 
+// if u want to add only specific file, you type it
+// it shows that there is update on it
