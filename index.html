@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS TRAINING</title>
+</head>
+<body>
+
+    <h3>This is js training</h3>
+    <br>
+
+    <form action="">
+        <input type="text" onfocus="hightlight(this)">
+        <button> Focus</button>
+        <!-- <input type=text" > -->
+    </form>
+
+    <script>
+        function hightlight(elm) {
+            elm.style.background = "yellow"
+            elm.style.color = "green"
+            
+        }
+
+
+    </script>
+<br>
+
+    <form action="">
+        <input type="text" onfocus="hightsize(this)">
+        <button >Click me</button>
+    </form>
+
+    <script>
+        function hightsize(elm){
+            elm.style.background = "blue"
+            elm.style.color = "red"
+            elm.style.font = 34
+        }
+    </script>
+
+    <!-- it is not necessary to be a button ooo -->
+    <!-- <button id="mybtn">click me</button>
+    <button onclick="alert('I am the second click')">Hey CLick</button>
+    <button onclick='alert("I am the 3rd click")'>Third Click </button>
+    <button oncontextmenu='alert("I am right click")'>Right me </button> -->
+
+    <!-- I was to try another function method for you  -->
+    <!-- <button onmouseover ="alert('I am left click')">Left click </button>
+    <button oncontextmenu="alert('I am right click')">Right click </button>
+    <button id="leftClickBTN">Left click JS </button>
+    <button id="rightClickBTN">Right click JS </button>
+<br>
+    <form>
+        <input type="text" onkeyup="alert('You typed something')">
+    </form>
+<br>
+    <form>
+        <input type="text" onkeydown="alert('Error typing')">
+    </form>
+    <br>
+    <form>
+        <input type="text" onkeypress="alert('Error typing')">
+    </form> -->
+
+    <!-- keydown will display something before you see what u typed
+    
+        It has wahala abi 
+
+        practice 
+h
+# have u seen a situation where u click on a form and u made error then u see red border... it is called focus 
+
+so lets practise onfocus
+        we will talk about form event... 
+        it will allow user to do it well 
+    keyup will display d text before the alert -->
+
+    <!-- Another way of writing ur event ... this is dirently inside the html not external script
+    
+    but it is not a good practise bcus u can't reuse it-->
+    <!-- since we are using the direct js event inside the html, we can equally write js scripts inside the event
+    
+    I have written js script inside html bcus of the event I called 
+
+    I can't call double quote inside double qoute. I need to change one to single qoute
+
+    did u understand it?
+
+    Event: there are two things users use on the browser... Keyboard and mouse
+
+    Now, for us to get what the user has done with mouse, we will use onclick for left click and oncontextmenu for rightclick
+
+-->
+    <script src="./event.js"></script>
+</body>
+</html>
